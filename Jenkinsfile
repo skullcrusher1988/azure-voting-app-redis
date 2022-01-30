@@ -9,7 +9,7 @@ pipeline {
         }
         stage(('doirrrt'){
            steps{
-              pwsh(script: 'docker image -a')
+              sh script: "docker image -a"
 
            }
         }
