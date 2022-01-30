@@ -7,10 +7,10 @@ pipeline {
                 echo "$GIT_BRANCH"
             }
         }
-        stage(){
+        stage(('doirrrt'){
            steps{
               sh(script: 'docker image -a')
-              
+
            }
         }
 
